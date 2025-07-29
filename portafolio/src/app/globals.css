@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --punto-color-rgb: 116, 63, 9;
+    --details-color: 44, 56, 153;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(110deg,
+            #4752a8 50%,
+            #9198e5 50%
+        );
+}
+
+@media screen and (max-width: 335px) {
+  body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(
+            #4752a8 20%,
+            #9198e5 50%
+        );
+  }
+}
+
+h1{
+    font-family: var(--font-exo2-title), sans-serif;
+}
+
+h2{
+    font-family: var(--font-exo2-title), sans-serif;
+}
+
+.puntoTitle{
+    font-family: var(--font-exo2-title), sans-serif;
+    color: rgb(var(--details-color));
+    font-size: 60px;
+}
+
+
