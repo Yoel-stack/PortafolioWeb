@@ -4,10 +4,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import Image from 'next/image';
 
-import slide1 from './images/screenShoesMenu.png'
-import slide2 from './images/screenShoesSidebar.png'
-import slide3 from './images/screenShoesShop.png'
-import slide4 from './images/screenShoesCart.png'
+import slide1 from './images/screen1.png'
+import slide2 from './images/screen2.png'
+import slide3 from './images/screen3.png'
+import slide4 from './images/screen4.png'
+import slide5 from './images/screen5.png'
+import slide6 from './images/screen6.png'
+import slide7 from './images/screen7.png'
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -66,6 +69,30 @@ export const Slide = () => {
       <SwiperSlide className=''>
         <Image
           src={slide4}
+          alt="imagenSlide4"
+          width={600}
+          objectFit="cover"
+          />
+      </SwiperSlide>
+      <SwiperSlide className=''>
+        <Image
+          src={slide5}
+          alt="imagenSlide4"
+          width={600}
+          objectFit="cover"
+          />
+      </SwiperSlide>
+      <SwiperSlide className=''>
+        <Image
+          src={slide6}
+          alt="imagenSlide4"
+          width={600}
+          objectFit="cover"
+          />
+      </SwiperSlide>
+      <SwiperSlide className=''>
+        <Image
+          src={slide7}
           alt="imagenSlide4"
           width={600}
           objectFit="cover"

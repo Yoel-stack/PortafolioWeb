@@ -16,177 +16,178 @@ import logoSwiper from "./tecnologiasImg/swiper.png";
 export const Skills = () => {
   return (
     <div>
+      <div className="grid xl:grid-cols-2 sm:grid-cols shadow-xl rounded-xl mt-5">
+        <div className="mx-3 p-4">
+          <h2 className="flex text-2xl font-semibold mt-2 mb-4 tracking-wide text-left">
+            Habilidades y experiencia
+          </h2>
+          <p className="text-left hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 border-1 border-gray-400 p-4 rounded-lg">
+            Estoy en constante crecimiento, siempre buscando mejorar mis
+            habilidades, aprender nuevas herrramientas y adquirir nuevos
+            conocimientos, en cada proyecto me gusta buscar el detalle para que
+            el usuario tenga una experiencia atractiva, un uso comodo y
+            confortable de los proyectos en los que yo trabaje.
+          </p>
+          <p className="text-left hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 mt-3 border-1 border-gray-400 p-4 rounded-lg">
+            Me gusta el trabajo colectivo y me considero una persona
+            responsable.
+          </p>
+          <p className="text-left hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 mt-3 border-1 border-gray-400 p-4 rounded-lg">
+          Me motiva encontrar soluciones creativas a problemas y adaptarlas a la necesidad del cliente.
+          </p>
+        </div>
 
-    <div className="grid xl:grid-cols-2 sm:grid-cols shadow-xl rounded-xl mt-5">
-      <div className="mx-3 p-4">
-        <h2 className="flex text-2xl font-semibold mt-2 mb-4 tracking-wide text-left">
-          Habilidades y experiencia 
-        </h2>
-        <p className="text-left hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 border-1 border-gray-400 p-4 rounded-lg">
-          Estoy en constante crecimiento, siempre buscando mejorar mis
-          habilidades, aprender nuevas herrramientas y adquirir nuevos
-          conocimientos, en cada proyecto me gusta buscar el detalle para que el ususario tenga una 
-          experiencia atractiva, un uso comodo y confortable de los mismos. 
-        </p>
-        <p className="text-left hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 mt-3 border-1 border-gray-400 p-4 rounded-lg">
-          Me gusta el trabajo colectivo y me considero una
-          persona responsable.
-        </p>
-        <p className="text-left hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 mt-3 border-1 border-gray-400 p-4 rounded-lg">
-          He trabajado en varios proyectos personales en los cuales he aprendido muchisimo, desarrolle una pagina web 
-          desde cero la cual me permitio mejorar mis conocimientos en...
-        </p>
-      </div>
-
-      <div className="m-3 px-4">
-        <h2 className="text-2xl tracking-wider font-semibold text-center mt-2 mb-4">
-          Mis Tecnologías
-        </h2>
-        <h3 className="text-center tracking-wider m-1">
-          Frontend y backend
-          </h3>
+        <div className="m-3 px-4">
+          <h2 className="text-2xl tracking-wider font-semibold text-center mt-2 mb-4">
+            Mis Tecnologías
+          </h2>
+          <h3 className="text-center tracking-wider m-1">Frontend y backend</h3>
           <div className="flex flex-wrap hover:bg-gray-600/18 bg-gray-600/10 border-1 border-gray-400 justify-center w-[280px] mx-auto p-2 gap-2 rounded-lg">
-          <li className="flex flex-col items-center">
-          <Image
-          className=" "
-              src={logoHtml}
-              alt="HTML"
-              width={37}
-              height={40}
-              priority
-            />
-            <p className="mt-1 text-xs text-gray-800">HTML</p>
-          </li>
-          <li className="flex flex-col items-center">
-            <Image
-              className=" "
-              src={logoCss}
-              alt="CSS"
-              width={37}
-              height={50}
-              priority
-            />
-            <p className="mt-1 text-xs text-gray-800">CSS</p>
-          </li>
-          <li className="flex flex-col items-center">
-            <Image
-              className="rounded shadow-sm"
-              src={logoJavascript}
-              alt="JavaScript"
-              width={37}
-              height={30}
-              priority
-            />
-            <p className="mt-1 text-xs text-center text-gray-800">JavaScript</p>
-          </li>
-          <li className="flex flex-col items-center">
-            <Image
-              className="rounded"
-              src={logoReact2}
-              alt="React"
-              width={37}
-              height={47}
-              priority
-            />
-            <p className="mt-1 text-xs text-center text-gray-800">React</p>
-          </li>
-          <li className="flex flex-col items-center">
-            <Image
-              className="rounded-full border-1 border-gray-400"
-              src={logoNextjs}
-              alt="Nextjs"
-              width={37}
-              height={40}
-              priority
-            />
-            <p className="mt-1 text-xs text-center text-gray-800">Nextjs</p>
-          </li>
-          <li className="flex flex-col items-center">
-            <Image
-              className=" "
-              src={logoBoostrap}
-              alt="Bootstrap"
-              width={37}
-              height={40}
-              priority
-            />
-            <p className="mt-1 text-xs text-center text-gray-800">Bootstrap</p>
-          </li>
-          <li className="flex flex-col items-center">
-            <Image
-              className="rounded"
-              src={logoTailwind}
-              alt="Zustand"
-              width={37}
-              height={40}
-              priority
-            />
-            <p className="mt-1 text-xs text-center text-gray-800">Tailwind</p>
-          </li>
-          <li className="flex flex-col items-center">
-            <Image
-              className="rounded-full shadow-sm"
-              src={logoSwiper}
-              alt="Swiper"
-              width={37}
-              height={40}
-              priority
-            />
-            <p className="mt-1 text-xs text-center text-gray-800">Swiper</p>
-          </li>
-          <li className="flex flex-col items-center">
-            <Image
-              className="rounded shadow-sm"
-              src={logoNodejs}
-              alt="Nodejs"
-              width={37}
-              height={40}
-              priority
-            />
-            <p className="mt-1 text-xs text-center text-gray-800">Nodejs</p>
-          </li>
-        </div>
+            <li className="flex flex-col items-center">
+              <Image
+                className=" "
+                src={logoHtml}
+                alt="HTML"
+                width={37}
+                height={40}
+                priority
+              />
+              <p className="mt-1 text-xs text-gray-800">HTML</p>
+            </li>
+            <li className="flex flex-col items-center">
+              <Image
+                className=" "
+                src={logoCss}
+                alt="CSS"
+                width={37}
+                height={50}
+                priority
+              />
+              <p className="mt-1 text-xs text-gray-800">CSS</p>
+            </li>
+            <li className="flex flex-col items-center">
+              <Image
+                className="rounded shadow-sm"
+                src={logoJavascript}
+                alt="JavaScript"
+                width={37}
+                height={30}
+                priority
+              />
+              <p className="mt-1 text-xs text-center text-gray-800">
+                JavaScript
+              </p>
+            </li>
+            <li className="flex flex-col items-center">
+              <Image
+                className="rounded"
+                src={logoReact2}
+                alt="React"
+                width={37}
+                height={47}
+                priority
+              />
+              <p className="mt-1 text-xs text-center text-gray-800">React</p>
+            </li>
+            <li className="flex flex-col items-center">
+              <Image
+                className="rounded-full border-1 border-gray-400"
+                src={logoNextjs}
+                alt="Nextjs"
+                width={37}
+                height={40}
+                priority
+              />
+              <p className="mt-1 text-xs text-center text-gray-800">Nextjs</p>
+            </li>
+            <li className="flex flex-col items-center">
+              <Image
+                className=" "
+                src={logoBoostrap}
+                alt="Bootstrap"
+                width={37}
+                height={40}
+                priority
+              />
+              <p className="mt-1 text-xs text-center text-gray-800">
+                Bootstrap
+              </p>
+            </li>
+            <li className="flex flex-col items-center">
+              <Image
+                className="rounded"
+                src={logoTailwind}
+                alt="Zustand"
+                width={37}
+                height={40}
+                priority
+              />
+              <p className="mt-1 text-xs text-center text-gray-800">Tailwind</p>
+            </li>
+            <li className="flex flex-col items-center">
+              <Image
+                className="rounded-full shadow-sm"
+                src={logoSwiper}
+                alt="Swiper"
+                width={37}
+                height={40}
+                priority
+              />
+              <p className="mt-1 text-xs text-center text-gray-800">Swiper</p>
+            </li>
+            <li className="flex flex-col items-center">
+              <Image
+                className="rounded shadow-sm"
+                src={logoNodejs}
+                alt="Nodejs"
+                width={37}
+                height={40}
+                priority
+              />
+              <p className="mt-1 text-xs text-center text-gray-800">Nodejs</p>
+            </li>
+          </div>
 
-        <h3 className="text-center tracking-wider m-1 mt-3">
-          Estado, gestión y herramientas
-        </h3>
-        <div className="flex flex-wrap hover:bg-gray-600/18 bg-gray-600/10 border-1 border-gray-400 justify-center w-[170px] mx-auto mb-3 p-2 gap-2 rounded-lg">
-          <li className="flex flex-col items-center">
-            <Image
-              className="rounded shadow-sm"
-              src={logoZustand}
-              alt="Zustand"
-              width={37}
-              height={35}
-              priority
-            />
-            <p className="mt-1 text-xs text-center text-gray-800">Zustand</p>
-          </li>
-          <li className="flex flex-col items-center">
-            <Image
-              className="rounded-full shadow-sm"
-              src={logoGit}
-              alt="Git"
-              width={37}
-              height={40}
-              priority
-            />
-            <p className="mt-1 text-xs text-center text-gray-800">Git</p>
-          </li>
-          <li className="flex flex-col items-center">
-            <Image
-              className="rounded"
-              src={logoLinux}
-              alt="JavaScript"
-              width={37}
-              height={30}
-              priority
-            />
-            <p className="mt-1 text-xs text-center text-gray-800">Linux</p>
-          </li> 
+          <h3 className="text-center tracking-wider m-1 mt-3">
+            Estado, gestión y herramientas
+          </h3>
+          <div className="flex flex-wrap hover:bg-gray-600/18 bg-gray-600/10 border-1 border-gray-400 justify-center w-[170px] mx-auto mb-3 p-2 gap-2 rounded-lg">
+            <li className="flex flex-col items-center">
+              <Image
+                className="rounded shadow-sm"
+                src={logoZustand}
+                alt="Zustand"
+                width={37}
+                height={35}
+                priority
+              />
+              <p className="mt-1 text-xs text-center text-gray-800">Zustand</p>
+            </li>
+            <li className="flex flex-col items-center">
+              <Image
+                className="rounded-full shadow-sm"
+                src={logoGit}
+                alt="Git"
+                width={37}
+                height={40}
+                priority
+              />
+              <p className="mt-1 text-xs text-center text-gray-800">Git</p>
+            </li>
+            <li className="flex flex-col items-center">
+              <Image
+                className="rounded"
+                src={logoLinux}
+                alt="JavaScript"
+                width={37}
+                height={30}
+                priority
+              />
+              <p className="mt-1 text-xs text-center text-gray-800">Linux</p>
+            </li>
+          </div>
         </div>
       </div>
-    </div>
     </div>
   );
 };

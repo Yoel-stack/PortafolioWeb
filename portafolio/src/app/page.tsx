@@ -1,11 +1,11 @@
-import {  Hero, Footer, Projects, Skills, Navbar } from "./index/index";
+import {  Hero, Footer, Projects, Skills, Navbar, About } from "./index/index";
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
-      {/* <About /> */}
+      <About />
       <Skills />
       <Projects />
       <Footer />

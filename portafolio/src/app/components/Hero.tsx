@@ -19,8 +19,7 @@ export const Hero = () => {
         </h1> 
         <h2 className="flex tracking-wider text-left text-2xl font-semibold mb-3">Desarrollador Full Stack</h2>
         <p className="text-left hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 border-1 border-gray-400 p-4 rounded-lg">
-          Hola mi nombre es Yoel Montelongo, tengo 23 años de edad, soy un estudiante 
-          autodidacta de Uruguay.
+          <strong>Hola!</strong> Soy <strong>Yoel Montelongo</strong>, tengo 23 años de edad y soy de Uruguay.
           Me encanta la programacion y la tecnologia ademas de buscar soluciones a problemas que sean efectivas y que todo funcione de
           manera adecuada.   
         </p>
@@ -40,7 +39,6 @@ export const Hero = () => {
         />
           </div>
           <div className="flex flex-wrap">
-
           <nav className="p-3">
             <nav className="flex items-center justify-start py-2">
               <Image src={location} alt="location" width={26} height={20} />
@@ -48,11 +46,11 @@ export const Hero = () => {
             </nav>
             <nav className="flex items-center justify-start py-2">
               <Image src={gmail} alt="gmail" width={26} height={20} />
-              <p className="text-sm px-1">ymontelongo0@</p>
+              <p className="text-sm px-1">yoelmontelongo0@gmail.com</p>
             </nav>
             <nav className="flex items-center justify-start py-2">
               <Image src={tel} alt="tel" width={26} height={20} />
-              <p className="text-sm px-1">091 872 346</p>
+              <p className="text-sm px-1">091 897 227</p>
             </nav>
           </nav>
           </div>

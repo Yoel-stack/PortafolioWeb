@@ -4,7 +4,7 @@ import { outfit, rockroll } from "./config/fonts";
 
 
 export const metadata: Metadata = {
-  title: "Portafolio",
+  title: "yoel_stack",
   description: "Creado por Yoel",
 };
 
