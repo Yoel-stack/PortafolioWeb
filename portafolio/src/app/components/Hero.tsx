@@ -1,8 +1,8 @@
 import Image from "next/image";
 import logo from "../img/logo.png";
-import tel from "../img/tel.png";
-import gmail from "../img/gmail.png";
-import location from "../img/location.png";
+// import tel from "../img/tel.png";
+// import gmail from "../img/gmail.png";
+// import location from "../img/location.png";
 
 export const Hero = () => {
   return (
@@ -27,18 +27,18 @@ export const Hero = () => {
 
       {/* Segunda columna: tarjetas o contenido */}
       <div className="flex flex-col items-center justify-center mb-3">
-        <div className="grid grid-cols-2 sm:grid-cols-2">
+        {/* <div className="grid grid-cols-2 sm:grid-cols-2"> */}
           <div className="">
             <Image
-          className="rounded-full border-2 border-black"
+          className="rounded-full border-2 border-black "
           src={logo}
           alt="fotoperfil"
-          width={150}
+          width={200}
           height={200}
           priority
         />
           </div>
-          <div className="flex flex-wrap">
+          {/* <div className="flex flex-wrap">
           <nav className="p-3">
             <nav className="flex items-center justify-start py-2">
               <Image src={location} alt="location" width={26} height={20} />
@@ -46,16 +46,16 @@ export const Hero = () => {
             </nav>
             <nav className="flex items-center justify-start py-2">
               <Image src={gmail} alt="gmail" width={26} height={20} />
-              <p className="text-sm px-1">yoelmontelongo0@gmail.com</p>
+              <p className="text-sm px-1">yoelmontelongo0@</p>
             </nav>
             <nav className="flex items-center justify-start py-2">
               <Image src={tel} alt="tel" width={26} height={20} />
-              <p className="text-sm px-1">091 897 227</p>
+              <p className="text-sm px-1"></p>
             </nav>
           </nav>
-          </div>
+          </div> */}
         </div>
-      </div>
+      {/* </div> */}
     </div>  
   );
 };
