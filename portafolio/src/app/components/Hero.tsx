@@ -20,8 +20,8 @@ export const Hero = () => {
         <h2 className="flex tracking-wider text-left text-2xl font-semibold mb-3">Desarrollador Full Stack</h2>
         <p className="text-left hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 border-1 border-gray-400 p-4 rounded-lg">
           <strong>Hola!</strong> Soy <strong>Yoel Montelongo</strong>, tengo 23 años de edad y soy de Uruguay.
-          Me encanta la programacion y la tecnologia ademas de buscar soluciones a problemas que sean efectivas y que todo funcione de
-          manera adecuada.   
+          Me encanta la programación y la tecnología, además de buscar soluciones a problemas 
+          que sean efectivas y que todo funcione de manera adecuada
         </p>
       </nav>
 

@@ -22,18 +22,18 @@ export const Skills = () => {
             Habilidades y experiencia
           </h2>
           <p className="text-left hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 border-1 border-gray-400 p-4 rounded-lg">
-            Estoy en constante crecimiento, siempre buscando mejorar mis
-            habilidades, aprender nuevas herrramientas y adquirir nuevos
-            conocimientos, en cada proyecto me gusta buscar el detalle para que
-            el usuario tenga una experiencia atractiva, un uso comodo y
-            confortable de los proyectos en los que yo trabaje.
+            Estoy en constante evolución, procuro perfeccionar mis habilidades, 
+            explorar nuevas herramientas y expandir mis conocimientos. 
+            En cada proyecto, cuido cada detalle para brindar al usuario una experiencia atractiva,
+            cómoda y confortable.
+
           </p>
           <p className="text-left hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 mt-3 border-1 border-gray-400 p-4 rounded-lg">
             Me gusta el trabajo colectivo y me considero una persona
             responsable.
           </p>
           <p className="text-left hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 mt-3 border-1 border-gray-400 p-4 rounded-lg">
-          Me motiva encontrar soluciones creativas a problemas y adaptarlas a la necesidad del cliente.
+            Me motiva encontrar soluciones creativas a problemas y adaptarlas a la necesidad del cliente.
           </p>
         </div>
 

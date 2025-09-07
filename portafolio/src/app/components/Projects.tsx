@@ -17,7 +17,7 @@ export const Projects = () => {
           </h2>
           <p className="mx-7 hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 border border-gray-400 p-2 rounded-lg mt-4 tracking-wide">
             Aquí puedes ver algunas imágenes del proyecto en el que he
-            trabajando.
+            trabajado
           </p>
           <Slide />
         </div>

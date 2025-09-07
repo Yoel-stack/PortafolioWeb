@@ -7,7 +7,7 @@ export const About = () => {
         creando aplicaciones y páginas web. Me apasiona resolver problemas y
         crear soluciones innovadoras utilizando JavaScript, mi lenguaje
         preferido. He trabajado con tecnologías como Nextjs, Tailwind CSS,
-        React, Nodejs y Swiper, desarrollando proyectos uno de ellos es un carrito de
+        React, Nodejs y Swiper, desarrollando proyectos. Uno de ellos es un carrito de
         compras completo que sigo actualizando. Estoy siempre abierto a nuevos
         desafíos y oportunidades para seguir creciendo profesionalmente!
       </p>
