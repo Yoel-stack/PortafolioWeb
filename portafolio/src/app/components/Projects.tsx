@@ -80,12 +80,4 @@ export const Projects = () => {
   );
 };
 
-//  Desarrolle una aplicacion web desde cero, este proyecto me
-//  permitio mejorar mis conocimientos en temas de SEO mejorados
-//  gracias a SSR, SSG e ISR, que permiten cargar contenido rápido,
-//  desarrollo súper fluido, con recarga instantánea , tipado con
-//  TypeScript e enrutado basado en archivos. Optimización
-//  automática, que incluye división de código, imágenes adaptativas
-//  y prefetching de rutas, ademas obtuve conocimientos de APIS y
-//  como integrarlas a mis proyectos.
 

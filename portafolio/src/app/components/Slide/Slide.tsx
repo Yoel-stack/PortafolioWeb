@@ -19,7 +19,7 @@ import 'swiper/css/effect-cards';
 import 'swiper/css/effect-coverflow';
 
 import './styles.css';
-// import { useRef, useState } from 'react';
+
 
 export const Slide = () => {
   return (
