@@ -15,12 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={rockroll.variable}>
-      <body
-        className={`${outfit.className} antialiased`}
-      >
-        {children}
-        
-      </body>
+      <body className={`${outfit.className} antialiased`}>{children}</body>
     </html>
   );
 }

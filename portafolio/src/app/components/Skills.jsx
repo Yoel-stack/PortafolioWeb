@@ -21,18 +21,18 @@ export const Skills = () => {
           <h2 className="flex text-2xl font-semibold mt-2 mb-4 tracking-wide text-left">
             Habilidades y experiencia
           </h2>
-          <p className="text-left hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 border-1 border-gray-400 p-4 rounded-lg">
+          <p className="text-left hover:bg-gray-600/18 text-black bg-gray-600/10 border-1 border-gray-400 p-4 rounded-lg">
             Estoy en constante evolución, procuro perfeccionar mis habilidades, 
             explorar nuevas herramientas y expandir mis conocimientos. 
             En cada proyecto, cuido cada detalle para brindar al usuario una experiencia atractiva,
             cómoda y confortable.
 
           </p>
-          <p className="text-left hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 mt-3 border-1 border-gray-400 p-4 rounded-lg">
+          <p className="text-left hover:bg-gray-600/18 text-black bg-gray-600/10 mt-3 border-1 border-gray-400 p-4 rounded-lg">
             Me gusta el trabajo colectivo y me considero una persona
             responsable.
           </p>
-          <p className="text-left hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 mt-3 border-1 border-gray-400 p-4 rounded-lg">
+          <p className="text-left hover:bg-gray-600/18 text-black bg-gray-600/10 mt-3 border-1 border-gray-400 p-4 rounded-lg">
             Me motiva encontrar soluciones creativas a problemas y adaptarlas a la necesidad del cliente.
           </p>
         </div>
@@ -52,7 +52,7 @@ export const Skills = () => {
                 height={40}
                 priority
               />
-              <p className="mt-1 text-xs text-gray-800">HTML</p>
+              <p className="mt-1 text-xs text-black">HTML</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -63,7 +63,7 @@ export const Skills = () => {
                 height={50}
                 priority
               />
-              <p className="mt-1 text-xs text-gray-800">CSS</p>
+              <p className="mt-1 text-xs text-black">CSS</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -74,7 +74,7 @@ export const Skills = () => {
                 height={30}
                 priority
               />
-              <p className="mt-1 text-xs text-center text-gray-800">
+              <p className="mt-1 text-xs text-center text-black">
                 JavaScript
               </p>
             </li>
@@ -87,18 +87,18 @@ export const Skills = () => {
                 height={47}
                 priority
               />
-              <p className="mt-1 text-xs text-center text-gray-800">React</p>
+              <p className="mt-1 text-xs text-center text-black">React</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
-                className="rounded-full border-1 border-gray-400"
+                className="rounded-full border-1 border-black"
                 src={logoNextjs}
                 alt="Nextjs"
                 width={37}
                 height={40}
                 priority
               />
-              <p className="mt-1 text-xs text-center text-gray-800">Nextjs</p>
+              <p className="mt-1 text-xs text-center text-black">Nextjs</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -109,7 +109,7 @@ export const Skills = () => {
                 height={40}
                 priority
               />
-              <p className="mt-1 text-xs text-center text-gray-800">
+              <p className="mt-1 text-xs text-center text-black">
                 Bootstrap
               </p>
             </li>
@@ -122,7 +122,7 @@ export const Skills = () => {
                 height={40}
                 priority
               />
-              <p className="mt-1 text-xs text-center text-gray-800">Tailwind</p>
+              <p className="mt-1 text-xs text-center text-black">Tailwind</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -133,7 +133,7 @@ export const Skills = () => {
                 height={40}
                 priority
               />
-              <p className="mt-1 text-xs text-center text-gray-800">Swiper</p>
+              <p className="mt-1 text-xs text-center text-black">Swiper</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -144,7 +144,7 @@ export const Skills = () => {
                 height={40}
                 priority
               />
-              <p className="mt-1 text-xs text-center text-gray-800">Nodejs</p>
+              <p className="mt-1 text-xs text-center text-black">Nodejs</p>
             </li>
           </div>
 
@@ -161,7 +161,7 @@ export const Skills = () => {
                 height={35}
                 priority
               />
-              <p className="mt-1 text-xs text-center text-gray-800">Zustand</p>
+              <p className="mt-1 text-xs text-center text-black">Zustand</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -172,7 +172,7 @@ export const Skills = () => {
                 height={40}
                 priority
               />
-              <p className="mt-1 text-xs text-center text-gray-800">Git</p>
+              <p className="mt-1 text-xs text-center text-black">Git</p>
             </li>
             <li className="flex flex-col items-center">
               <Image
@@ -183,7 +183,7 @@ export const Skills = () => {
                 height={30}
                 priority
               />
-              <p className="mt-1 text-xs text-center text-gray-800">Linux</p>
+              <p className="mt-1 text-xs text-center text-black">Linux</p>
             </li>
           </div>
         </div>

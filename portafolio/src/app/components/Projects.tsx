@@ -15,7 +15,7 @@ export const Projects = () => {
           <h2 className="text-2xl tracking-wider font-semibold">
             Mis Proyectos
           </h2>
-          <p className="mx-7 hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 border border-gray-400 p-2 rounded-lg mt-4 tracking-wide">
+          <p className="mx-7 hover:bg-gray-600/18 text-black bg-gray-600/10 border border-gray-400 p-2 rounded-lg mt-4 tracking-wide">
             Aquí puedes ver algunas imágenes del proyecto en el que he
             trabajado
           </p>
@@ -26,13 +26,13 @@ export const Projects = () => {
         <div className="flex flex-col justify-center items-center text-center my-2 shadow-xl rounded-xl">
           <div className="grid grid-cols-1 sm:grid-cols-2">
             <div className="mx-6 my-5">
-              <p className="hover:bg-gray-600/18 text-gray-700 bg-gray-600/10 flex justify-center mb-1 items-center text-x text-center w-[115px] h-[20px] border-1 border-gray-400 p-1 rounded-lg tracking-wider">
-                ShoesImport
+              <p className="hover:bg-gray-600/18 text-black bg-gray-600/10 flex justify-center mb-1 items-center text-x text-center w-[115px] h-[20px] border-1 border-gray-400 p-1 rounded-lg tracking-wider">
+                GlobKiks
               </p>
               <p className="hover:bg-gray-600/18 text-gray-300 uppercase bg-gray-600/10 flex justify-center items-center text-xs text-center w-[115px] h-[20px] border-1 border-gray-400 p-1 rounded-lg tracking-wider">
                 Agosto-2025
               </p>
-              <nav className="mt-1 hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 border border-gray-400 p-4 rounded-lg tracking-wide">
+              <nav className="mt-1 hover:bg-gray-600/18 text-black bg-gray-600/10 border border-gray-400 p-4 rounded-lg tracking-wide">
                 <ol className="text-left text-sm pl-4">
                   <li>
                     <strong>SSR, SSG e ISR:</strong> Implementé técnicas de
@@ -53,7 +53,7 @@ export const Projects = () => {
               </nav>
             </div>
             <div className="my-5 mt-auto mx-6">
-              <nav className="hover:bg-gray-600/18 text-gray-900 bg-gray-600/10 border border-gray-400 p-4 rounded-lg tracking-wide">
+              <nav className="hover:bg-gray-600/18 text-black bg-gray-600/10 border border-gray-400 p-4 rounded-lg tracking-wide">
                 <ol className="text-left text-sm pl-4">
                   <li>
                     <strong>Recarga instantánea (Fast Refresh):</strong>{" "}
