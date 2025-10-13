@@ -56,7 +56,7 @@ export const Projects = () => {
               <nav className="hover:bg-gray-600/18 text-black bg-gray-600/10 border border-gray-400 p-4 rounded-lg tracking-wide">
                 <ol className="text-left text-sm pl-4">
                   <li>
-                    <strong>Recarga instantánea (Fast Refresh):</strong>{" "}
+                    <strong>Recarga instantánea:</strong>{" "}
                     Implementé la recarga instantánea para ver los cambios en
                     tiempo real sin perder el estado de la aplicación.
                   </li>

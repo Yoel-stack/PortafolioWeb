@@ -18,7 +18,7 @@ export const Skills = () => {
     <div>
       <div className="grid xl:grid-cols-2 sm:grid-cols shadow-xl rounded-xl mt-5">
         <div className="mx-3 p-4">
-          <h2 className="flex text-2xl font-semibold mt-2 mb-4 tracking-wide text-left">
+          <h2 className="flex justify-center text-2xl font-semibold mt-2 mb-4 tracking-wide">
             Habilidades y experiencia
           </h2>
           <p className="text-left hover:bg-gray-600/18 text-black bg-gray-600/10 border-1 border-gray-400 p-4 rounded-lg">

@@ -1,5 +1,7 @@
 export * from '../components/Navbar/Navbar';
 
+
+export * from '../components/Certifications';
 export * from '../components/Hero';
 export * from '../components/About';
 export * from '../components/Skills';

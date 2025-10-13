@@ -1,4 +1,4 @@
-import {  Hero, Footer, Projects, Skills, Navbar, About } from "./index/index";
+import {  Hero, Footer, Projects, Skills, Navbar, About, Certifications } from "./index/index";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <Certifications/>
       <Skills />
       <Projects />
       <Footer />
