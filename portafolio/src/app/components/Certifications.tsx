@@ -1,28 +1,27 @@
-import Image from 'next/image'
-import React from 'react'
-
-import certificadoIA from '../img/certificadoIA.png'
+import Image from "next/image";
+import certificadoIA from "../img/certificadoIA.png";
 
 export const Certifications = () => {
   return (
-    <div>
-      <div className="text-center">
-        <nav className="pt-4">
-          <h2 className="mt-2 mb-4 text-2xl tracking-wide font-semibold">
-            Certificaciones
-          </h2>
-        </nav>
-        <nav className="flex pb-9 items-center justify-center shadow-xl ">
+    <section className="w-full px-6 py-10">
+      <div className="max-w-4xl mx-auto text-center">
+        
+        {/* <h2 className="text-3xl font-semibold tracking-wide text-white mb-8">
+          Certificaciones
+        </h2> */}
+
+        <div
+          className="p-6 rounded-xl shadow-2xl bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center hover:scale-[1.02] transition-all duration-300">
           <Image
-            className="rounded-sm"
             src={certificadoIA}
-            alt="IA"
-            width={250}
+            alt="Certificación IA"
+            width={500}
             height={0}
+            className="rounded-lg shadow-lg"
             priority
           />
-        </nav>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };

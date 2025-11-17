@@ -23,9 +23,9 @@ import './styles.css';
 
 export const Slide = () => {
   return (
-    <div className='p-7 grid grdi-cols sm:grid-cols'>
+    <div className='grid grdi-cols sm:grid-cols'>
     <Swiper
-      className="rounded-xl"
+      className="rounded-lg"
       spaceBetween={5}
       slidesPerView={1}
       centeredSlides={false}
@@ -45,9 +45,9 @@ export const Slide = () => {
         <Image
           src={slide1}
           alt="imagenSlide1"
-          width={600}
-          height={600}
-          objectFit="cover"
+          width={800}
+          height={800}
+          style={{ objectFit: "cover" }}
         />
       </SwiperSlide>
       <SwiperSlide className=''>
@@ -55,7 +55,7 @@ export const Slide = () => {
           src={slide2}
           alt="imagenSlide2"
           width={600}
-          objectFit="cover"
+          style={{ objectFit: "cover" }}
         />
       </SwiperSlide>
       <SwiperSlide className=''>
@@ -63,7 +63,7 @@ export const Slide = () => {
           src={slide3}
           alt="imagenSlide3"
           width={600}
-          objectFit="cover"
+          style={{ objectFit: "cover" }}
           />
       </SwiperSlide>
       <SwiperSlide className=''>
@@ -71,7 +71,7 @@ export const Slide = () => {
           src={slide4}
           alt="imagenSlide4"
           width={600}
-          objectFit="cover"
+          style={{ objectFit: "cover" }}
           />
       </SwiperSlide>
       <SwiperSlide className=''>
@@ -79,7 +79,7 @@ export const Slide = () => {
           src={slide5}
           alt="imagenSlide4"
           width={600}
-          objectFit="cover"
+          style={{ objectFit: "cover" }}
           />
       </SwiperSlide>
       <SwiperSlide className=''>
@@ -87,7 +87,7 @@ export const Slide = () => {
           src={slide6}
           alt="imagenSlide4"
           width={600}
-          objectFit="cover"
+          style={{ objectFit: "cover" }}
           />
       </SwiperSlide>
       <SwiperSlide className=''>
@@ -95,7 +95,7 @@ export const Slide = () => {
           src={slide7}
           alt="imagenSlide4"
           width={600}
-          objectFit="cover"
+          style={{ objectFit: "cover" }}
           />
       </SwiperSlide>
       

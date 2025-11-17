@@ -5,28 +5,20 @@
 @tailwind utilities;
 
 :root {
-    --punto-color-rgb: 116, 63, 9;
-    --details-color: 44, 56, 153;
+    --backgroundTwo: 7, 17, 30;
+    --title: 255, 255, 255;
+    --subTitles: 96, 165, 250;
+    --details-color: 59, 130, 246;
 };
 
 body {
     height: 100%;
     margin: 0;
-    background: linear-gradient(110deg,
-            #4752a8 50%,
-            #9198e5 50%
-        );
-};
-
-@media screen and (max-width: 400px) {
-    body {
-        height: 100%;
-        margin: 0;
-        background: linear-gradient(
-                #4752a8 20%,
-                #9198e5 50%
-            );
-    };
+    background: linear-gradient(125deg,
+    #1F2A44 0%,
+    #3A4F7A 70%,
+    #5C7AEA 100%
+    );
 };
 
 h1{
@@ -42,5 +34,18 @@ h2{
     color: rgb(var(--details-color));
     font-size: 60px;
 };
+
+.title{
+    color: rgb(var(--title));
+};
+
+.subTitles{
+    color: rgb(var(--subTitles));
+};
+
+.backgroundTwo{
+    background: rgb(var(--backgroundTwo));
+};
+
 
 

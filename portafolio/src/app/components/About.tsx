@@ -1,18 +1,26 @@
 export const About = () => {
   return (
-    <div className="text-center p-7 shadow-xl">
-      <h2 className="text-3xl font-semibold">Sobre mí</h2>
-      <p className="m-2 p-4 text-l text-left text-black hover:bg-gray-600/18 bg-gray-600/10 border-1 border-gray-400 rounded-lg">
-        Soy un desarrollador web autodidacta con un año de experiencia
-        creando aplicaciones y páginas web. Me apasiona resolver problemas y
-        crear soluciones innovadoras utilizando JavaScript, mi lenguaje
-        preferido. He trabajado con tecnologías como Nextjs, Tailwind CSS,
-        React, Nodejs y Swiper, desarrollando proyectos. Uno de ellos es un carrito de
-        compras completo que sigo actualizando. Estoy siempre abierto a nuevos
-        desafíos y oportunidades para seguir creciendo profesionalmente!
-      </p>
-    </div>
-  );
+    <section className="w-full flex items-center justify-center text-center py-10 px-4">
+      <div className="max-w-5xl w-full backgroundTwo rounded-xl shadow-2xl p-10 text-white border border-white/5 backdrop-blur-xl">
+        <h2 className="text-4xl font-bold tracking-wide mb-6 subTitles">
+          Sobre mí
+        </h2>
 
+        <p className="bg-white/5 text-gray-300 border border-white/10 p-6 rounded-xl leading-relaxed text-lg">
+          Soy un desarrollador web autodidacta con un año de experiencia
+          creando aplicaciones y páginas web. Me apasiona resolver problemas y
+          crear soluciones innovadoras utilizando JavaScript, mi lenguaje
+          preferido.
+          <br /><br />
+          He trabajado con tecnologías como <strong>Next.js, Tailwind CSS, React, Node.js y Swiper</strong>, 
+          desarrollando proyectos como un carrito de compras completo que sigo actualizando.
+          <br /><br />
+          Estoy siempre abierto a nuevos desafíos y oportunidades para seguir
+          creciendo profesionalmente.
+        </p>
+      </div>
+    </section>
+  );
 };
+
 
