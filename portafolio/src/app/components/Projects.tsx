@@ -20,7 +20,7 @@ export const Projects = () => {
               <Slide />
             </nav>
             <nav>
-              <Link href="https://globkiks.vercel.app/">
+              <Link href="https://glob-kiks.vercel.app/">
                 <button className="mt-4 bg-blue-600 px-4 py-1 hover:bg-blue-700 rounded-md font-semibold transition cursor-pointer">
                   Click para ingresar
                 </button>
