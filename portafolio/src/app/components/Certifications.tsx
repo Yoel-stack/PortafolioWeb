@@ -1,5 +1,6 @@
 import Image from "next/image";
 import certificadoIA from "../img/certificadoIA.png";
+import certificadoIA2 from "../img/certificadoIA2.png";
 
 export const Certifications = () => {
   return (
@@ -14,6 +15,17 @@ export const Certifications = () => {
           className="p-6 rounded-xl shadow-2xl bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center hover:scale-[1.02] transition-all duration-300">
           <Image
             src={certificadoIA}
+            alt="Certificación IA"
+            width={500}
+            height={0}
+            className="rounded-lg shadow-lg"
+            priority
+          />
+        </div>
+        <div
+          className="p-6 mt-3 rounded-xl shadow-2xl bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center hover:scale-[1.02] transition-all duration-300">
+          <Image
+            src={certificadoIA2}
             alt="Certificación IA"
             width={500}
             height={0}
