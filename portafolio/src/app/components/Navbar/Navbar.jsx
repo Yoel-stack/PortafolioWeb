@@ -9,10 +9,10 @@ export const Navbar = () => {
   return (
     <section className="absolute w-screen bg-center">
       <div className="fixed left-0 right-0 z-50 top-0 flex py-3 justify-center">
-          <nav className="flex justify-center items-center gap-2 bg-white/10 h-16 w-[200px] hover:bg-white/20 rounded-xl px-4 border border-white/20 backdrop-blur-xl backdrop-saturate-150">
+          <nav className="flex justify-center items-center gap-2 bg-white/10 h-15 w-[200px] hover:bg-white/20 rounded-xl px-4 border border-white/20 backdrop-blur-xl backdrop-saturate-150">
           
           <p className="flex justify-center text-sm text-gray-400 items-center text-center">
-            v1.2.0
+            v1.2.1
           </p>
 
           <Link href="https://github.com/Yoel-stack">

@@ -7,12 +7,12 @@ export const Hero = () => {
     <section className="w-full flex items-center justify-center py-10 px-4">
       <div className="max-w-6xl w-full backgroundTwo rounded-xl shadow-2xl grid grid-cols-1 xl:grid-cols-2 p-10 gap-10 title border border-white/5 backdrop-blur-xl">
         
-        <div className="flex flex-col justify-center">
-          <h1 className="text-5xl font-extrabold tracking-wide mb-4">
-            yoel_stack<span className="puntoTitle">.</span>
+        <div className="flex flex-col justify-center mt-2 sm:mt-1">
+          <h1 className="flex justify-center text-5xl font-extrabold tracking-wide ml-3 mb-4">
+            yoel_stack<span className="-mt-2 ml-1 puntoTitle">.</span>
           </h1>
 
-          <h2 className="subTitles text-3xl font-semibold mb-6">
+          <h2 className="text-center subTitles text-3xl font-semibold mb-6">
             Desarrollador Full Stack
           </h2>
 
@@ -34,7 +34,7 @@ export const Hero = () => {
           </div> */}
         </div>
 
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center -mt-7 sm:mt-0">
           <div className="relative">
             <Image
               className="rounded-full shadow-2xl border-4 border-blue-500/40"
